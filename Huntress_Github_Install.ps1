@@ -9,7 +9,7 @@ if (-not (Test-Path -Path $directoryPath -PathType Container)) {
     Write-Host "Directory '$directoryPath' already exists."
 }
 cd C:\Temp\Huntress
-Invoke-WebRequest -Uri https://github.com/Sentinel-Cyber/Huntress-Deployment/blob/main/Powershell/InstallHuntress.powershellv2.ps1 -Outfile .\HuntressDeploymentv2.ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/Sentinel-Cyber/Huntress-Deployment/main/Powershell/InstallHuntress.powershellv2.ps1 -Outfile .\HuntressDeploymentv2.ps1
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\HuntressDeploymentv2.ps1 -acctkey $AccountKey -orgkey $OrganizationKey
 Start-Sleep -Seconds 15
