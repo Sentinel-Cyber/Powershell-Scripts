@@ -1,6 +1,7 @@
 ###############################################################
 ### Function to find NinjaRMM uninstall string
 ###############################################################
+
 function Get-NinjaUninstallString {
     try {
         $script:MSIUninstallString = Get-ItemProperty "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | 
@@ -20,9 +21,11 @@ function Get-NinjaUninstallString {
         return $null
     }
 }
+
 ###############################################################
 ### Function to get NinjaRMM installation folder
 ###############################################################
+
 function Get-NinjaInstallFolder {
     try {
         Write-Host "Checking registry path: HKLM:\SOFTWARE\WOW6432Node\NinjaRMM LLC\NinjaRMMAgent"
@@ -45,6 +48,7 @@ function Get-NinjaInstallFolder {
 ###############################################################
 ### Main Uninstallation Script
 ###############################################################
+
 try {
     Write-Host "Searching for NinjaRMM uninstall string..."
     $productCode = Get-NinjaUninstallString
