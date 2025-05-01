@@ -1,0 +1,13 @@
+This solution requires you to re-establish trust between the domain controller and client to resolve The trust relationship between this workstation and the primary domain failed issue. Here’s how:
+
+Press Windows key + X to open Power User Menu.
+Tap A on the keyboard to launch PowerShell in admin/elevated mode.
+In the PowerShell console, type in or copy and paste the command below and hit Enter:
+$credential = Get-Credential
+Input the user name and password of the domain administrator account into the Windows PowerShell credentials request pop-up login dialog.
+Click OK.
+Next, type or copy and paste the command below into PowerShell window and hit Enter:
+Reset-ComputerMachinePassword -Credential $credential
+Once the command executes, exit PowerShell.
+Restart computer.
+Now, you can use domain user account to log on your device and check if the issue is fixed.

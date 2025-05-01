@@ -1,0 +1,1 @@
+﻿Invoke-WebRequest -Uri "https://overwatchgrp-my.sharepoint.com/:u:/g/personal/rdewitt_corp_weareowg_com/EfgrzjFolsFDtt5W7CXcW0kB6vP5sETiJLSx93WLU7KoVQ?e=dnDjbg&download=1" -OutFile "C:\PSOutput\Huntress.exe"

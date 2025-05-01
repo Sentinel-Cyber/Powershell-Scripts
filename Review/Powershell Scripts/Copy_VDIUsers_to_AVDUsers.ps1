@@ -1,0 +1,1 @@
+﻿Get-ADGroupMember -Identity "VDI Users Group" | ForEach-Object {Add-ADGroupMember -Identity "AVD Users" -Members $_.distinguishedName}

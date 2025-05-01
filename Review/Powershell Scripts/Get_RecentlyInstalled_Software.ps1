@@ -1,0 +1,1 @@
+﻿Get-WinEvent -ProviderName msiinstaller | where id -eq 1033 | select timecreated,message | FL *

@@ -1,0 +1,70 @@
+﻿<LabTech_Expansion
+	Version="210.263"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>562</ScriptId>
+				<FolderId>113</FolderId>
+				<ScriptName>BitLocker Keys Recovery</ScriptName>
+				<ScriptNotes>This script pulls the bitlocker keys for any BitLocker Encrypted drive on windows devices and writes them to an EDF in the computer info page.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8tNUQnkERMWNulDRdZo8IQvTkrZiby8tCnU1zAzfwMAhOIwtbm1nDVyHBo0ANimc+7ip+9hhMhzYzMHu3YQ0Mmju6CO23g4ZOdUvfFaYiFQZkVwKkpeyKHlB1kdgMwYuLoWmu2FqQx3H8f/g2+/74I1+VDz3K0GV844KgY5qryoqpM+t1wVqZX/8BACbX1ouPm2JIpviAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO1ZUW/bNhB+boD8h4OXojYyxaZkJ2qaGGltKwiWpkHdNY+FLJ0XrrLoUlRaY91/HylRtqzaStfa65QNCBAdSR3vvjt+PJ1Phh6nU9F3hdvd3QE4SeUoEaQ4+CS4q2YdioEfQTObuHa5O0GBPDd2HrCRG+QGUmVv5SLKwi45aS4PLK06j6nftcejluUfEqPt+Z5BCHqG7bdHBjF9y/XtDtptN9OSvJDY3MwbrdUNBU7nXjz3hDZAP+lxJw4T+cJXczkp7yQpOG0WZKsgtwtyJ4cH46Lbkvaq/3qsx0JBwxjV+PxZz72KLumEJq9kj3rmIvQxFG7ijJzNi3lIFiiUwGKWwGI+XY9L9ydp75jyCQ1/gxdUXDLvPXIYSjviCE5hELqjAP2Tpl7+3wXR6pSg2FoNULd+jsKYw/qWBfEEwXjJ4lBcMxoK6DUO0tEUca3GLMd1vl17Gd/uIPT4bKosXFLXWYKdbBp2skXYj1olqK9xtxgEczWqXScOglkfEx3zFLcKUB/Po7fYzZEEiatDUEhxc9NYm1XGWuv4W1i/4fHXQW1VCepSSl44n/Fwj8WBD1dMwAuEvrqxJV+jDwYMPlGhqPsjFbfguDSIOW6FrNuVImtSQtYbLgU6VaJTYpUl3n1ct9mMOqxURpXhtqibckf3NYqYh7KEcp5fDgfwWc5F8nDmiiwaZeUVyPXiFqF3DLpG2AriRw8QcUWKGYqf53SYbrkVEO0qgUhKUVxTtX4nQE8fNiHmCpLN4kaq9T307YT45vWvig9veHpWc0t+wRkIBo89NpnGssoJ3Qk+hkHfgdpKlXJ9bTux2PhH0r/v23SPo5DRqNV2d5LP1JsJfTX6HT0BxpXEPZq6HgJnTDQ9Orkzm0P0YhmyWfMl9TiL2Fikd1UuHkYvcKMIbmhome/0uKLmdGFDBl2Bauht+pze4SUKGWg54zA+cL3bbPKP3Z1HdAz1vXcHU84EJr5FaTls4AcgjWTJoz09y7j05Z/xAwyHBsroei3vwik8qcE+SIPzo/tQe1JrNA6kZTJbrzNjo7rVSM2XG31k3IdKmX8l9XDqucG1Nr++iINuaOSXX/ipsyrj9k+ToBY2AarOBh1TKSZmlKtTr/wMHD12h3ym39CmHHxhnFr9DGrKhj8BZT2rU6fEnAXdhLLAwLTAeJaq2N2Rf+rl7+zWzPeQvq3u1Gy8fbDNq9Quax8Q9A87pnlktMe+bbTbZGS4xCLGiNhjG/HwyDbX8dRZdhtQ/2xNd+EsD+XZ6u7CfYz/cPoHvVv03ic3q7w4x5IYF8msLlh17woMt3NvVqpNQFrWD0tZGYkkTt+WrJVqOpT2FQs4FJG0vpJjj6We5cQu7xaSjXcftnnc7/lK+cL3DR/qh9M3UPw3jD0Po2isOtIZGeY6qVtsHZD/ewf3IfQjmgeZrH9A/wsxTkubTx8AAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>8fb03d61-4cdc-11ec-8d4b-12d3ad85e84a</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>267</ID>
+					<Form>1</Form>
+					<Name>BitLocker Encryption Key</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>OWG EDFs</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>1ed65227-4fd8-441b-a131-b18f8ee67820</LtGuid>
+					<IsPassword>true</IsPassword>
+					<IsEncrypted>true</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>113</FolderID>
+					<ParentID>106</ParentID>
+					<Name>Production Scripts</Name>
+					<GUID>1d9c2487-7aa9-489c-8ece-49c92f33f6ce</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>106</FolderID>
+					<ParentID>0</ParentID>
+					<Name>**OWG Scripts**</Name>
+					<GUID>b1c9923a-b4d0-4069-9945-1a1900765083</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,1 @@
+wevtutil epl System C:\System_Event_Log.evtx

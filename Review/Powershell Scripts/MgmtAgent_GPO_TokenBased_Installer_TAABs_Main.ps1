@@ -1,0 +1,2 @@
+﻿ $Token = d4d6d4ef1da54b75a4850691dca9ddcc
+ iex (new-object Net.WebClient).DownloadString('https://bit.ly/LTPoSh'); Install-LTService -Server 'https://overwatchgroup.hostedrmm.com' -LocationID 223 -InstallerToken $Token -Force

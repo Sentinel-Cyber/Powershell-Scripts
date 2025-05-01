@@ -1,0 +1,2 @@
+﻿Connect-ExchangeOnline -Credential $credential -ShowProgress $true
+Get-Mailbox -ResultSize Unlimited | foreach { Get-MailboxStatistics -identity $_.userprincipalName | select Displayname,TotalItemSize} | Export-Csv -Path "C:\MailboxSizes.csv" -NoTypeInformation

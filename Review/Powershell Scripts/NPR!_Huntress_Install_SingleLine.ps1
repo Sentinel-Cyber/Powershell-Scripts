@@ -1,0 +1,1 @@
+﻿(New-Object Net.WebClient).DownloadFile('https://huntress.io/download/9a94f5b4259d390e8f6b82d3f943b350',$env:temp+'/HuntressInstaller.exe');iex $env:temp'\HuntressInstaller.exe /S /ACCT_KEY=9a94f5b4259d390e8f6b82d3f943b350 /ORG_KEY=onboard'

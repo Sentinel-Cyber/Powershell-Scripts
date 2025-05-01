@@ -1,0 +1,2 @@
+﻿Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
+Get-AppxPackage -allusers Microsoft.Windows.Photos | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}

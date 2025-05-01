@@ -1,0 +1,3 @@
+﻿## This script grabs the most recently logged in user and stores it in the $username variable.
+## Generated via APT ChatBot by Ramon DeWitt 2022/12/13
+$username = (Get-EventLog -LogName security -InstanceId 4624 | Where-Object {$_.ReplacementStrings[5] -notmatch "NT AUTHORITY\\" -and $_.ReplacementStrings[5] -notmatch "SYSTEM"} | Sort-Object -Property TimeGenerated -Descending | Select-Object -First 1 -Property @{Name="Username";Expression={$_.ReplacementStrings[5]}}).Username

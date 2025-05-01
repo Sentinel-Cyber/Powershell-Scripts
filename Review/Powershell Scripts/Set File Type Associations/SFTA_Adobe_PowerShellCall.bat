@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -command "& { . \\DC1\netlogon\SFTA.ps1; Set-FTA 'Acrobat.Document.DC' '.pdf' }"

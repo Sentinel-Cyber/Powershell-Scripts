@@ -1,0 +1,1 @@
+powershell Start-ADSyncSyncCycle -PolicyType Delta
